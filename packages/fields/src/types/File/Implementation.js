@@ -25,6 +25,7 @@ export class File extends Implementation {
   gqlOutputFields() {
     return [`${this.path}: ${this.graphQLOutputType}`];
   }
+
   gqlQueryInputFields() {
     return [...this.equalityInputFields('String'), ...this.inInputFields('String')];
   }
@@ -118,7 +119,7 @@ const CommonFileInterface = superclass =>
     getQueryConditions(dbPath) {
       return {
         ...this.equalityConditions(dbPath),
-        ...this.inConditions(dbPath),
+        ...this.inConditions(dbPath), // FIXME: Factor this out for Prisma Adapter
       };
     }
   };
