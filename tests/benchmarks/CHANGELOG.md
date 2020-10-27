@@ -1,5 +1,12 @@
 # @keystonejs/benchmarks
 
+## 5.1.25
+
+### Patch Changes
+
+- Updated dependencies [[`31ad142ea`](https://github.com/keystonejs/keystone/commit/31ad142ea058b178e2eda34e7ca4a29d1e99299c)]:
+  - @keystonejs/test-utils@10.0.0
+
 ## 5.1.24
 
 ### Patch Changes

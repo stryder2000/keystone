@@ -1,5 +1,11 @@
 # @keystonejs/test-utils
 
+## 10.0.0
+
+### Major Changes
+
+- [`31ad142ea`](https://github.com/keystonejs/keystone/commit/31ad142ea058b178e2eda34e7ca4a29d1e99299c) [#4014](https://github.com/keystonejs/keystone/pull/4014) Thanks [@timleslie](https://github.com/timleslie)! - Renamed the `multiAdapterRunners` option `prisma` to `prisma_postgresql` to allow room for other Prisma variants in the future.
+
 ## 9.1.0
 
 ### Minor Changes
